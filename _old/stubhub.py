@@ -13,4 +13,5 @@ html = response.read()
 # pprint(sorted(prices))
 
 print response
+print 'break'
 print html
