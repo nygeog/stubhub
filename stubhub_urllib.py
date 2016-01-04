@@ -5,9 +5,10 @@ pauser =   60 #1 minute for testing
 pauser = 3600 #an hour
 pauser =  900 #7.5 minutes, grab each every half hour
 
-eventList = ['9394538','9394539','9394540','9394541']
-dateList  = ['20160101','20160102']
+eventList = ['9394541'] #'9394538','9394539','9394540',
+dateList  = ['20160102']  #'20151230''20151231' '20160101',
 
+#so for at least two days 12/30 and 12/31, I was hitting the wrong event id so there's likely a bunch of fucked up files. 
 
 for i in range(1,3001):
 	for i, j in zip(eventList, dateList):
